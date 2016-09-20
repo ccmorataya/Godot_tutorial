@@ -17,5 +17,7 @@ func _fixed_process(delta):
 		set_linear_velocity(Vector2(-200,get_linear_velocity().y))
 	elif (btn_r):
 		set_linear_velocity(Vector2(200,get_linear_velocity().y))
+	else:
+		set_linear_velocity(Vector2(0,get_linear_velocity().y))
 
 
