@@ -23,7 +23,7 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "names" </string>
-			<string_array  len="41">
+			<string_array  len="42">
 				<string> "world" </string>
 				<string> "Node2D" </string>
 				<string> "player" </string>
@@ -50,6 +50,7 @@
 				<string> "damp_override/linear" </string>
 				<string> "damp_override/angular" </string>
 				<string> "script/script" </string>
+				<string> "speed" </string>
 				<string> "RigidBody2D" </string>
 				<string> "player_sprite" </string>
 				<string> "transform/scale" </string>
@@ -72,9 +73,9 @@
 			<array  len="0" shared="false">
 			</array>
 			<string> "nodes" </string>
-			<int_array  len="145"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 26, 2, -1, 23, 3, 0, 4, 1, 5, 2, 6, 3, 7, 1, 8, 4, 9, 4, 10, 5, 11, 6, 12, 7, 13, 8, 14, 6, 15, 1, 16, 5, 17, 5, 18, 1, 19, 1, 20, 9, 21, 10, 22, 8, 23, 11, 24, 11, 25, 12, 0, 1, 0, 30, 27, -1, 2, 28, 13, 29, 14, 0, 1, 0, 31, 31, -1, 4, 28, 15, 32, 2, 33, 1, 34, 5, 0, 0, 0, 38, 35, -1, 10, 4, 1, 5, 16, 6, 17, 7, 1, 8, 4, 9, 4, 36, 10, 37, 8, 12, 6, 13, 8, 0, 4, 0, 30, 39, -1, 4, 3, 18, 40, 19, 28, 20, 29, 21, 0, 4, 0, 31, 31, -1, 5, 3, 22, 28, 23, 32, 16, 33, 1, 34, 5, 0 </int_array>
+			<int_array  len="147"> 				-1, -1, 1, 0, -1, 0, 0, 0, 0, 27, 2, -1, 24, 3, 0, 4, 1, 5, 2, 6, 3, 7, 1, 8, 4, 9, 4, 10, 5, 11, 6, 12, 7, 13, 8, 14, 6, 15, 1, 16, 5, 17, 5, 18, 1, 19, 1, 20, 9, 21, 10, 22, 8, 23, 11, 24, 11, 25, 12, 26, 13, 0, 1, 0, 31, 28, -1, 2, 29, 14, 30, 15, 0, 1, 0, 32, 32, -1, 4, 29, 16, 33, 2, 34, 1, 35, 5, 0, 0, 0, 39, 36, -1, 10, 4, 1, 5, 17, 6, 18, 7, 1, 8, 4, 9, 4, 37, 10, 38, 8, 12, 6, 13, 8, 0, 4, 0, 31, 40, -1, 4, 3, 19, 41, 20, 29, 21, 30, 22, 0, 4, 0, 32, 32, -1, 5, 3, 23, 29, 24, 33, 17, 34, 1, 35, 5, 0 </int_array>
 			<string> "variants" </string>
-			<array  len="24" shared="false">
+			<array  len="25" shared="false">
 				<vector2> 473.813, 166.06 </vector2>
 				<bool> False </bool>
 				<resource  resource_type="Shape2D" path="local://1">  </resource>
@@ -88,6 +89,7 @@
 				<vector2> 0, 0 </vector2>
 				<real> -1 </real>
 				<resource  external="0">  </resource>
+				<int> 500 </int>
 				<vector2> 16.1215, 15.9766 </vector2>
 				<resource  external="1">  </resource>
 				<vector2> 1.06911, 1.08379 </vector2>

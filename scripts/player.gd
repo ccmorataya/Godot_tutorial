@@ -1,7 +1,7 @@
 
 extends RigidBody2D
 
-var speed = 200
+export var speed = 200
 
 var btn_r = Input.is_action_pressed("ui_right")
 var btn_l = Input.is_action_pressed("ui_left")
