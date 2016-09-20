@@ -1,6 +1,8 @@
 
 extends RigidBody2D
 
+var speed = 200
+
 var btn_r = Input.is_action_pressed("ui_right")
 var btn_l = Input.is_action_pressed("ui_left")
 
@@ -14,9 +16,9 @@ func _fixed_process(delta):
 	btn_l = Input.is_action_pressed("ui_left")
 	
 	if (btn_l):
-		set_linear_velocity(Vector2(-200,get_linear_velocity().y))
+		set_linear_velocity(Vector2(-speed,get_linear_velocity().y))
 	elif (btn_r):
-		set_linear_velocity(Vector2(200,get_linear_velocity().y))
+		set_linear_velocity(Vector2(speed,get_linear_velocity().y))
 	else:
 		set_linear_velocity(Vector2(0,get_linear_velocity().y))
 
