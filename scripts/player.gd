@@ -3,6 +3,7 @@ extends RigidBody2D
 
 export var speed = 200
 export var acceleration = 5
+export var gravity = 400
 
 var actual_speed = Vector2(0,0)
 
@@ -14,9 +15,8 @@ func moveIt(speed, acceleration_move, delta):
 	set_linear_velocity(Vector2(actual_speed.x, get_linear_velocity().y))
 	
 func _ready():
-	# Called every time the node is added to the scene.
-	# Initialization here
 	set_fixed_process(true)
+	set_applied_force(Vector2(0,gravity))
 
 func _fixed_process(delta):
 	btn_r = Input.is_action_pressed("ui_right")
